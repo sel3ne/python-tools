@@ -11,10 +11,10 @@ def is_prime_number(x):
     return True
 
 if __name__ =="__main__":
-    imput = argparse.ArgumentParser(description='Until what number do you whish to check?')
-    imput.add_argument('integer', metavar='N', type=int, nargs='+',
-                    help='the integer to check')
-    args = imput.parse_args()
+    inp = argparse.ArgumentParser(description='Until what number do you wish to check?')
+    inp.add_argument('integer', metavar='N', type=int, nargs='+',
+                     help='the integer to check')
+    args = inp.parse_args()
 
 
     primes = 0
