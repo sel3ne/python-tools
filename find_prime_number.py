@@ -19,7 +19,7 @@ if __name__ =="__main__":
 
     primes = 0
 
-    if args.integer[0] > 10000:
+    if args.integer[0] > 100000:
         print('This is a very large number, it will take a while...')
             
     for i in range(args.integer[0]):
